@@ -1,0 +1,39 @@
+.mainHeader{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    color:white;
+    justify-content:space-around;
+    align-items:center;
+    background-color:#2F2E41;
+    padding:20px;
+    text-align:center;
+    font-style:normal;
+    font-family:Nunito Sans;
+    width:100%;
+    margin:0
+}
+.header{
+    font-size:72px;
+    padding-left:100px;
+    padding-right:100px
+}
+
+.image{
+    max-width:100%;
+    height:auto
+}
+
+@media screen and (max-width:700px){
+    .mainHeader{
+        flex-direction: column-reverse;
+    }
+    .header{
+        font-size: 36px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .image{
+        height:250px;
+    }
+}

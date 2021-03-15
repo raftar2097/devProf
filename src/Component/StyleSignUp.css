@@ -1,0 +1,101 @@
+.mainSignUp{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    font-style:normal;
+    font-family:Nunito Sans;
+    margin:0;
+    padding-top:50px;
+    width:100%;
+    padding-bottom:50px
+}
+
+.innerSignUp{
+    padding:10px;
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    border:1px solid black
+}
+.headerSignUp{
+    padding:30px;
+    font-size:32px
+}
+
+.sectionSignUp{
+    padding-left:40px;
+    font-size:24px;
+    width:100%;
+    padding-bottom:30px;
+}
+
+.innersectionSignUp{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    margin-bottom:10px;
+}
+.imageSignUp{
+    width:30px;
+    height:30px;
+    padding-top:10px
+}
+.spanSignUp{
+    padding:10px;
+}
+.inputSignUp{
+    font-size:24px;
+    color:#2F2E41;
+    border-radius:10px;
+    border:1px solid grey;
+    height:40px;
+    width:80%
+}
+.cancelButton{
+    font-size:24px;
+    padding:8px 40px;
+    background-color:white;
+    border:none;
+    outline:none;
+}
+.signUpButton{
+    font-size:24px;
+    padding:8px 40px;
+    background-color:#7C639F;
+    border-radius: 15px;
+    border:none;
+    color: white;
+    outline:none;
+}
+@media screen and (max-width:800px){
+    .headerSignUp{
+        padding: 15px;
+        font-size: 20px;
+    }
+    .sectionSignUp{
+        font-size: 16px;
+    }
+    .innerSignUp{
+        width:80%;
+    }
+    .inputSignUp{
+        font-size: 16px;
+    }
+    .imageSignUp{
+        width: 20px;
+        height:20px;
+    }
+    .cancelButton{
+        font-size: 16px;
+        padding:4px 20px;
+    }
+    .signUpButton{
+        font-size: 16px;
+        padding: 4px 20px;
+        
+    }
+    
+}
