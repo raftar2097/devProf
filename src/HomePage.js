@@ -10,10 +10,10 @@ import "./StyleHomePage.css"
 class  HomePage extends Component{
   render(){
     return (
-      <div>
+      <div style={{width:"100%",display:"flex",flexWrap:"wrap"}}>
         <Header/>
         <div className="upHead">
-            Explore developer profiles
+            <span>Explore developer profiles</span>
         </div>
         <hr style={{borderTopWidth:"0px",width:"90%",backgroundColor:"#e5e7eb"}}/>
         <SearchBar/>  

@@ -9,15 +9,17 @@
     font-family:Nunito Sans;
     margin:0;
     padding-top:50px;
-    width:100%;
+    width:60%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-bottom:50px
 }
 
 .innerContainer{
     background-color:#D0CDE1;
-    padding:8px;
-    border-radius:20px;
-    width:40%;
+    padding:1%;
+    border-radius:15px;
+    width:99%;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -29,7 +31,7 @@
 .input{
     font-size:24px;
     color:#2F2E41;
-    border-radius:20px;
+    border-radius:15px;
     border:none;
     height:50px;
     width:90%
@@ -39,20 +41,23 @@
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    width:90%;
+    justify-content: space-between;
+    width:80%;
     align-items:center;
-    padding-left:20%;
-    padding-right:20%
+    padding-left: 20%;
 }
 
 @media screen and (max-width:700px){
     .containerone{
         padding-bottom: 10px;
         padding-top: 10px;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
     }
     .innerContainer{
-        padding: 5px;
-        width:90%
+        padding: 1%;
+        width:99%
     }
     .input{
         font-size: 14px;
@@ -60,29 +65,23 @@
         height:30px;
     }
     .searchIcon{
-        width:20px;
+        width:7%;
         height:20px;
     }
 }
 
-@media screen and (max-width:600px){
+/* @media screen and (max-width:600px){
     .user{
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
     }
 }
 @media screen and (max-width:400px){
     .user{
         flex-direction: row;
-        width: 100%;
-        padding: none;
-    }
-}
-/* @media screen and (max-width:400px){
-    .user{
-        flex-direction: row;
-        width: 100%;
-        padding-left:0%;
-        padding-right:0%;
+        width: 80%;
+        padding-left:0;
+        padding-right:0;
     }
 } */

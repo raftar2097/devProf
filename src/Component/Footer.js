@@ -9,7 +9,7 @@ class  Footer extends Component {
             return (
                 <div className="main">
                     <p className="text">
-                    Made with <Love style={{fill:"red"}}/> by Raftar2097
+                    Made with <Love style={{fill:"red"}} className="love" /> by Raftar2097
                     </p>
                 </div>  
             )               

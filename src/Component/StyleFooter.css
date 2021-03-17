@@ -6,24 +6,24 @@
     justify-content:space-around;
     align-items:center;
     background-color:#2F2E41;
-    padding:20px;
+    padding:5%;
     text-align:center;
     color:white;
     font-style:normal;
     font-family:Nunito Sans;
-    width:100%;
+    width:95%;
     margin:0;
     font-size:24px;
 }
 .text{
     font-size: 24px;
-    padding-left:100px;
-    padding-right:100px;
 }
 @media screen and (max-width:450px){
     .text{
-        font-size: 20px;
-        padding-left: 50px;
-        padding-right: 50px;
+        font-size: 15px;
+    }
+    .love{
+        width:10px;
+        height: 10px;
     }
 }

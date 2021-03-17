@@ -8,18 +8,20 @@
 }
 
 .avatar{
-    width:100px;
-    height:100px;
+    width:20%;
+    height:20%;
     border-radius:50%;
     margin-bottom:30px
 }
 
 .spanUser{
-    padding:20px;
+    padding:5%;
 }
 
 .iconAvatar{
-    margin-top:30px;
+    width:3%;
+    height:3%;
+    margin-top:7%;
     fill:#0768FA
 }
 @media screen and (max-width:800px){
@@ -27,16 +29,16 @@
         font-size: 20px;
     }
     .avatar{
-        width: 75px;
-        height: 75px;
+        width:20%;
+        height:20%;
     }
     .spanUser{
-        padding:15px
+        padding:5%;
     }
     .iconAvatar{
-        margin-top: 15px;
-        width: 20px;
-        height:20px;
+        margin-top: 7%;
+        width:4%;
+        height:4%;
     }
 }
 
@@ -45,16 +47,16 @@
         font-size: 17px;
     }
     .avatar{
-        width: 50px;
-        height: 50px;
+        width:20%;
+        height:20%;
     }
     .spanUser{
-        padding:5px
+        padding:5%;
     }
     .iconAvatar{
-        margin-top: 10px;
-        width: 10px;
-        height:10px;
+        margin-top:7%;
+        width: 6%;
+        height:6%;
     }
 }
 @media screen and (max-width:400px){
@@ -63,15 +65,15 @@
         font-size: 15px;
     }
     .avatar{
-        width: 25px;
-        height:25px;
+        width:20%;
+        height:20%;
     }
     .spanUser{
-        padding: 2px;
+        padding:5%;
     }
     .iconAvatar{
-        margin-top: 6px;
-        width: 10px;
-        height:10px;
+        margin-top:8%;
+        width: 6%;
+        height:6%;
     }
 }

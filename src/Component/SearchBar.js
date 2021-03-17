@@ -41,7 +41,7 @@ class  SearchBar extends Component{
 
     render(){
         return (
-            <div style={{padding:"0px"}}>
+            <div style={{width:"100%",display:"flex",flexWrap:"wrap",justifyContent:"space-around"}}>
                 <div className="containerone">
                     <div className="innerContainer">
                         <input type="text" value={this.state.search} onChange={this.handleChange} placeholder="Search for username" className="input"></input>
