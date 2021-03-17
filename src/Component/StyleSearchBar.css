@@ -1,4 +1,4 @@
-.container{
+.containerone{
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -15,8 +15,8 @@
 
 .innerContainer{
     background-color:#D0CDE1;
-    padding:10px;
-    border-radius:10px;
+    padding:8px;
+    border-radius:20px;
     width:40%;
     display:flex;
     flex-direction:row;
@@ -29,7 +29,7 @@
 .input{
     font-size:24px;
     color:#2F2E41;
-    border-radius:10px;
+    border-radius:20px;
     border:none;
     height:50px;
     width:90%
@@ -46,12 +46,22 @@
 }
 
 @media screen and (max-width:700px){
-    .innercontainer{
+    .containerone{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .innerContainer{
         padding: 5px;
+        width:90%
     }
     .input{
         font-size: 14px;
-        width:70%
+        width:90%;
+        height:30px;
+    }
+    .searchIcon{
+        width:20px;
+        height:20px;
     }
 }
 

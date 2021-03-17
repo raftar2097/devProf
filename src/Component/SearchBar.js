@@ -41,11 +41,11 @@ class  SearchBar extends Component{
 
     render(){
         return (
-            <div>
-                <div className="container">
+            <div style={{padding:"0px"}}>
+                <div className="containerone">
                     <div className="innerContainer">
                         <input type="text" value={this.state.search} onChange={this.handleChange} placeholder="Search for username" className="input"></input>
-                        <SearchIcon  onClick={this.onSubmit}/>
+                        <SearchIcon  className="searchIcon" onClick={this.onSubmit}/>
                     </div>
                 </div>
                 <div className="user">
