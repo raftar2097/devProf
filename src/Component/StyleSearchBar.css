@@ -73,9 +73,16 @@
 }
 @media screen and (max-width:400px){
     .user{
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
-        padding-left: 20%;
-        padding-right: 20%;
+        padding: none;
     }
 }
+/* @media screen and (max-width:400px){
+    .user{
+        flex-direction: row;
+        width: 100%;
+        padding-left:0%;
+        padding-right:0%;
+    }
+} */

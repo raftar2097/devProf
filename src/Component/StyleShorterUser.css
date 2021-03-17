@@ -42,7 +42,7 @@
 
 @media screen and (max-width:500px){
     .userContainer{
-        font-size: 20px;
+        font-size: 17px;
     }
     .avatar{
         width: 50px;
@@ -59,6 +59,19 @@
 }
 @media screen and (max-width:400px){
     .userContainer{
-        width: 100%;
+        width: 50%;
+        font-size: 15px;
+    }
+    .avatar{
+        width: 25px;
+        height:25px;
+    }
+    .spanUser{
+        padding: 2px;
+    }
+    .iconAvatar{
+        margin-top: 6px;
+        width: 10px;
+        height:10px;
     }
 }

@@ -4,9 +4,9 @@ import "./StyleHeader.css"
 function Header() {
         return(
             <div className="mainHeader">
-                <h1 className="header">
+                <span className="header">
                     The Developer <br/>Repository
-                </h1>
+                </span>
                 <img src={header} className="image"/>
             </div>           
         )                 
