@@ -1,3 +1,6 @@
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
 .mainSignUp{
     display:flex;
     flex-direction:row;
@@ -28,7 +31,7 @@
     padding-left:40px;
     font-size:24px;
     width:100%;
-    padding-bottom:30px;
+    padding-bottom:10px;
 }
 
 .innersectionSignUp{
@@ -39,9 +42,9 @@
     margin-bottom:10px;
 }
 .imageSignUp{
-    width:30px;
-    height:30px;
-    padding-top:10px
+    width:25px;
+    height:25px;
+    margin-top:10px
 }
 .spanSignUp{
     padding:10px;
@@ -50,7 +53,7 @@
     font-size:24px;
     color:#2F2E41;
     border-radius:10px;
-    border:1px solid grey;
+    border:1px solid #e5e7eb;
     height:40px;
     width:80%
 }
@@ -77,12 +80,15 @@
     }
     .sectionSignUp{
         font-size: 16px;
+        padding-right: 40px;
     }
     .innerSignUp{
-        width:80%;
+        width:90%;
     }
     .inputSignUp{
         font-size: 16px;
+        height:25px;
+        width:100%;
     }
     .imageSignUp{
         width: 20px;

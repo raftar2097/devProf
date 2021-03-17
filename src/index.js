@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import SignUp from './Component/SignUp';
 import DeveloperProfile from './DeveloperProfile';
 import HomePage from './HomePage'
+import './index.css';
 
 class  App extends Component{
   render() {
