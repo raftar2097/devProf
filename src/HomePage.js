@@ -15,9 +15,9 @@ class  HomePage extends Component{
         <div className="upHead">
             Explore developer profiles
         </div>
-        <hr style={{borderTopWidth:"2px",width:"90%",backgroundColor:"#D0CDE1"}}/>
+        <hr style={{borderTopWidth:"0px",width:"90%",backgroundColor:"#e5e7eb"}}/>
         <SearchBar/>  
-        <hr style={{borderTopWidth:"2px",width:"90%",backgroundColor:"#D0CDE1"}}/>
+        <hr style={{borderTopWidth:"0px",width:"90%",backgroundColor:"#e5e7eb"}}/>
         <AddDeveloper/>
         <Footer/>
       </div>

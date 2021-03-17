@@ -54,7 +54,7 @@ function SignUp(){
                 <div className="headerSignUp">
                     Add Developer Profile
                 </div>
-                <hr style={{borderTopWidth:"2px",width:"100%",backgroundColor:"#D0CDE1"}}/>
+                <hr style={{height:"1px",width:"100%",backgroundColor:"#D0CDE1",border:"none"}}/>
                 <div className="sectionSignUp">
                     <div className="innersectionSignUp">
                         <img src={GithubIcon} className="imageSignUp"/>
@@ -98,7 +98,7 @@ function SignUp(){
                     </div>
                     <input className="inputSignUp" name="hackerrank" value={form.hackerrank} onChange={handleChange}></input>
                 </div>
-                <hr style={{borderTopWidth:"2px",width:"100%",backgroundColor:"#D0CDE1"}}/>
+                <hr style={{height:"1px",width:"100%",backgroundColor:"#D0CDE1",border:"none"}}/>
                 <div style={{display:"flex",flexDirection:"row",justifyContent:"space-around",alignItems:"flex-end",width:"100%",padding:"50px 0px"}}>
                     <div style={{width:"60%"}}></div>
                     <button className="cancelButton" onClick={()=>history.push("/")}>Cancel</button>
